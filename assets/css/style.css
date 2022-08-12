@@ -1,0 +1,30 @@
+:root {
+    --main-bg-color: #f4ebf5;
+    --primary-color:#343d54;
+    --secondary-color:#f4ebf5;
+}
+body {
+    background-color: var(--main-bg-color); 
+    color: var(--primary-color);
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    color: var(--primary-color) !important;
+    text-decoration: none;
+    border-bottom: 3px solid var(--primary-color);
+    padding: 5px 10px;
+}
+
+.main {
+    background-image: url(../images/wildflowers.jpg);
+    background-size: cover;
+    
+}
+
+.portrait {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+}
