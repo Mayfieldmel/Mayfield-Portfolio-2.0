@@ -20,6 +20,7 @@ a {
 .main {
     background-image: url(../images/wildflowers.jpg);
     background-size: cover;
+    padding-bottom: 30px;
     
 }
 
@@ -27,4 +28,19 @@ a {
     max-width: 90%;
     height: auto;
     margin-bottom: 20px;
+}
+
+.about-me {
+    margin-left: 30px;
+}
+
+.about-title {
+    border-bottom: 3px solid var(--primary-color);
+    margin-bottom: 10px;
+
+}
+.section-header {
+    text-align: right;
+    padding-right: 5px;
+    border-right: 3px solid var(--primary-color);
 }
