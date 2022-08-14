@@ -17,10 +17,26 @@ a {
     padding: 5px 10px;
 }
 
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.hero {
+    background-image: url("../images/wildflowers.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .main {
     background-image: url(../images/wildflowers.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
     padding-bottom: 30px;
+    padding-left: 30px;
     
 }
 
@@ -28,10 +44,16 @@ a {
     max-width: 90%;
     height: auto;
     margin-bottom: 20px;
+    border: 2px solid var(--primary-color);
 }
 
 .about-me {
     margin-left: 30px;
+    color: var(--primary-color);
+}
+
+.about-me .card-body{
+    background-color: var(--secondary-color);
 }
 
 .about-title {
@@ -43,4 +65,31 @@ a {
     text-align: right;
     padding-right: 5px;
     border-right: 3px solid var(--primary-color);
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 140%;
+}
+
+.card {
+    max-width: 250px;
+    margin: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.card img {
+    width: 100%;
+    min-height: 100px;
+    margin-top: 5px;
 }

@@ -33,81 +33,147 @@
         </ul>
       </nav>
     </header>
-    <main class="row main">
-      <div class="jumbotron col-sm-12 my-5">
-        <h1 class="display-4 text-center">Melissa Mayfield</h1>
-        <p class="lead text-center">Web development at its finest.</p>
-        <!-- <hr class="my-4"> -->
-      </div>
-      <div class="row">
-        <div class="col-sm-12 col-md-3 about-me">
-          <div class="card-columns mx-auto" style="width: 18rem">
-            <img
-              class="card-img-fluid portrait rounded"
-              src="./assets/images/crop-selfie.jpg"
-              alt="Melissa Mayfield and her winning smile"
-            />
-          </div>
-          <div class="card-columns mx-auto" style="width: 23rem">
-            <!-- bio -->
-            <div id="about-me" class="card-body">
-              <h2 class="card-title about-title">About Me</h2>
-              <p class="card-text">
-                Hi, my name is Melissa and I love to code. From responsive
-                front-end web designs to more complex software engineering, if
-                you are looking for someone to create top-of-the-line user
-                experiences then I am your gal! While I may be new to coding, I
-                am not new to people. I have spent 7 years studying people,
-                earning degrees in Psychology, Sociology, and Law. I have the
-                customer service experience and the know-how to curate online
-                experiences that users will love.
-              </p>
-              <p class="card-text">
-                I am a quick-study, personable, and eager to take your code to
-                the next level!
-              </p>
-            </div>
+    <div class="jumbotron row py-5 hero">
+      <h1 class="display-4 text-center">Melissa Mayfield</h1>
+      <p class="lead text-center">Web development at its finest.</p>
+      <!-- <hr class="my-4"> -->
+    </div>
+    <main class="main row">
+      <section class="col-sm-12 col-md-3 about-me flex-grow">
+        <div class="card-columns mx-auto" style="width: 18rem">
+          <img
+            class="card-img-fluid portrait rounded mx-auto d-block"
+            src="./assets/images/crop-selfie.jpg"
+            alt="Melissa Mayfield and her winning smile"
+          />
+        </div>
+        <div class="card-columns mx-auto" style="width: 23rem">
+          <!-- bio -->
+          <div id="about-me" class="card-body p-3 rounded">
+            <h2 class="card-title about-title">About Me</h2>
+            <p class="card-text">
+              Hi, my name is Melissa and I love to code. From responsive
+              front-end web designs to more complex software engineering, if you
+              are looking for someone to create top-of-the-line user experiences
+              then I am your gal! While I may be new to coding, I am not new to
+              people. I have spent 7 years studying people, earning degrees in
+              Psychology, Sociology, and Law. I have the customer service
+              experience and the know-how to curate online experiences that
+              users will love.
+            </p>
+            <p class="card-text">
+              I am a quick-study, personable, and eager to take your code to the
+              next level!
+            </p>
           </div>
         </div>
+      </section>
 
-        <section class="projects col-sm-12 col-md-7 flex-shrink-1">
-          <!-- Projects section-->
-          <div id="projects" class="row">
-            <div class="col-sm-12 col-md-2 section-header">
-              <h3>Projects</h3>
-            </div>
-            <!-- portfolio items & links-->
-            <div class="col-sm-12 col-md-8 flex-shrink-1">
-                <div class="card-deck">
-                    <div class="card">
-                      <img class="card-img-top" src="./assets/images/food-for-thought.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Food-for-Thought</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img class="card-img-top" src="./assets/images/crop-screen-runbuddy.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Run Buddy</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img class="card-img-top" src="./assets/images/day-planner.gif" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Mayfield Day Planner</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-                </div>
-            </div>
+      <section class="col-sm-12 col-md-7 flex-shrink-1">
+        <!-- Projects section-->
+        <div id="projects" class="projects">
+          <div class="col-sm-12 col-md-2 section-header mx-5">
+            <h3>Projects</h3>
           </div>
-        </section>
-      </div>
+          <!-- portfolio items & links-->
+          <div class="col-sm-12 col-md-8 flex-shrink-1">
+              <div class="card-deck row cards">
+                <div class="card">
+                  <img
+                    class="card-img-top card-img-fluid mx-auto"
+                    src="./assets/images/food-for-thought-crop.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Food-for-Thought</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img
+                    class="card-img-top card-img-fluid"
+                    src="./assets/images/run-buddy-landingpg.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Run Buddy</h5>
+                    <p class="card-text">
+                      This card has supporting text below as a natural lead-in
+                      to additional content.
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img
+                    class="card-img-top card-img-fluid"
+                    src="./assets/images/day-planner.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Mayfield Day Planner</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This card has even
+                      longer content than the first to show that equal height
+                      action.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="card-deck col-md-5">
+                <div class="card bg-light" style="width: 18rem">
+                  <img
+                    class="card-img-top card-img-fluid"
+                    src="./assets/images/food-for-thought-crop.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Food-for-Thought</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top card-img-fluid"
+                    src="./assets/images/run-buddy-landingpg.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Run Buddy</h5>
+                    <p class="card-text">
+                      This card has supporting text below as a natural lead-in
+                      to additional content.
+                    </p>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top card-img-fluid"
+                    src="./assets/images/day-planner.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Mayfield Day Planner</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This card has even
+                      longer content than the first to show that equal height
+                      action.
+                    </p>
+                  </div> -->
+                <!-- </div> -->
+              <!-- </div> -->
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
