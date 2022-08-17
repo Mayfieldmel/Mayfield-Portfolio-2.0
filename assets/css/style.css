@@ -94,6 +94,11 @@ header {
     margin-top: 5px;
 }
 
+.card-text-box {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
 .card-link {
     font-size: 14px;
 }
