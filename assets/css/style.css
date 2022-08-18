@@ -82,7 +82,7 @@ header {
 }
 
 .card {
-    max-width: 250px;
+    max-width: 300px;
     margin: 10px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
