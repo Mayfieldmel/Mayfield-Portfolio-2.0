@@ -25,18 +25,21 @@ header {
 }
 
 .hero {
+    /* background-color: var(--primary-color); */
+    /* color: var(--secondary-color); */
     background-image: url("../images/wildflowers.jpg");
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    padding: 65px 0;
 }
 
 .main {
-    background-image: url(../images/wildflowers.jpg);
+    /* background-image: url(../images/wildflowers.jpg);
     background-size: cover;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-bottom: 30px;
+    background-attachment: fixed; */
+    padding: 30px 0;
     padding-left: 30px;
+    background-color: var(--secondary-color);
     
 }
 
