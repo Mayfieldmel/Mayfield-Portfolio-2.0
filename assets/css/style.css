@@ -67,8 +67,12 @@ header {
 .about-title {
     border-bottom: 3px solid var(--primary-color);
     margin-bottom: 10px;
-
 }
+
+.a-dark {
+    color: var(--primary-color) !important;
+}
+
 .section-header {
     text-align: right;
     padding-right: 5px;
