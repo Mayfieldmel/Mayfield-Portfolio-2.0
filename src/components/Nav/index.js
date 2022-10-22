@@ -7,14 +7,11 @@ function Nav(props) {
    function title() { document.title = "Melissa Mayfield" }
 //    function title() { document.title = capitalizeFirstLetter(currentPage.name); }
    title()
-   function goHome() {
-    
-   }
   // jsx
   return (
     <header>
       <h1>
-        <a href="#" onClick={()=> setCurrentPage("About Me")}>Melissa Mayfield</a>
+        <a href="/" onClick={()=> setCurrentPage("About Me")}>Melissa Mayfield</a>
       </h1>
       <nav>
         <ul>
