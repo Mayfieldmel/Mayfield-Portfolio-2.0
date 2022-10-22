@@ -241,15 +241,6 @@ nav li:hover {
   font-size: 20px;
 }
 
-.github-icon {
-  max-width: 25px;
-  max-height: auto; 
-}
-
-.github-icon:hover {
-  opacity: .5;
-}
-
 .deployed:hover {
   opacity: .5;
 }
@@ -271,8 +262,22 @@ nav li:hover {
   font-size: 18px;
 }
 
-/* contact page */
+.card-hover {
+  border: 5px solid rgb(238, 238, 208);
+  border-radius: 5px;
+  }
+  
+.card-title-font {
+    font-family: AmaticSC, Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
 
+.card-font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+  }
+
+/* contact page */
 .contact-form {
   border: 2px solid var(--primary-color);
 }
@@ -299,6 +304,7 @@ nav li:hover {
   text-decoration: underline;
   opacity: .6;
 }
+
 
 /* footer */
 footer {
