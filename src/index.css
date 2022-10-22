@@ -164,6 +164,42 @@ nav li:hover {
 }
 
 /* Portfolio page */
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 140%;
+}
+
+.card {
+  max-width: 300px;
+  margin: 10px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  margin-top: 5px;
+}
+
+.card-text-box {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.card-link {
+  font-size: 14px;
+}
+/* react portfolio */
 .portfolio-section {
   display: flex;
   flex-direction: row;

@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, { useState } from "react"
 import pawfect from "../../assets/images/pawfect-homepage.png";
 import techBlog from "../../assets/images/mayfield-tech-blog-screenshot.png";
 import textEditor from "../../assets/images/text-editor-demo.gif";
@@ -8,7 +8,7 @@ import dayPlanner from "../../assets/images/day-planner.gif";
 import github from "../../assets/images/GitHub-Mark-32px.png";
 
 function Portfolio() {
-    // projects & links
+  // projects & links
   const projects = [
     {
       src: pawfect,
@@ -56,7 +56,48 @@ function Portfolio() {
     },
   ];
 
-  const [projectCard, setProjectCard] = useState(projects[0]);
+  return (
+    <div id="projects" className="projects">
+      <div className="col-sm-12 section-header mx-5">
+        <h3>Projects</h3>
+      </div>
+      <div className="col-sm-12 col-md-10 flex-shrink-1">
+        <div className="card-deck row cards">
+          {projects.map(project => (
+            <div className="card">
+                <img
+                  className="card-img-top card-img-fluid"
+                  src={project.src}
+                  alt={project.title}
+                />
+                <div className="card-body">
+                  <h5 className="card-title">{project.title}</h5>
+                  <h6 className="card-subtitle mb-2">{project.tools}</h6>
+                  <p className="card-text card-text-box">
+                    A secure pet social media site that allows users to create a pet profile, post text and images, and make comments on all content.
+                  </p>
+                  <div className="card-body list-group-item">
+                    <a
+                      href={project.deploy}
+                      className="card-link text-white"
+                      target="_blank"
+                      rel="noreferrer"
+                    >Deployed Link</a>
+                    <a
+                      href={project.github}
+                      className="card-link text-white"
+                      target="_blank"
+                      rel="noreferrer"
+                    >Github Link</a>
+                  </div>
+                </div>
+                </div>
+                ))}
+        </div>
+      </div>
+    </div>
+  )
+  {/* const [projectCard, setProjectCard] = useState(projects[0]);
   const [hover, setHover] = useState(false);
 
   //jsx
@@ -111,7 +152,7 @@ function Portfolio() {
         ))}
       </div>
     </section>
-  );
+            ); */}
 }
 
 export default Portfolio;
