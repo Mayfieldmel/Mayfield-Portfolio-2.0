@@ -1,6 +1,6 @@
 # Mayfield React Portfolio
 
-This repo houses the code used to build the Mayfield React Portfolio available at https://mayfieldmel.github.io/Mayfield-React-Portfolio/.
+This repo houses the code used to build the Mayfield React Portfolio available at https://mayfieldmel.github.io/Mayfield-Portfolio-2.0/.
 
 ![Mayfield-react-portfolio-screenshot](./src/assets/images/mayfield-react-portfolio-screenshot.png)
 
@@ -19,7 +19,7 @@ My portfolio offers a brief overview of who I am and what I can do. Explore the 
 
 ## Installation
 
-Access deployed link at https://mayfieldmel.github.io/Mayfield-React-Portfolio/ .
+Access deployed link at https://mayfieldmel.github.io/Mayfield-Portfolio-2.0/ .
 
 ## Credits
 
