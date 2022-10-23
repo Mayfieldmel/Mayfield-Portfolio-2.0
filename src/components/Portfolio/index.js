@@ -4,7 +4,13 @@ import techBlog from "../../assets/images/mayfield-tech-blog-screenshot.png";
 import textEditor from "../../assets/images/text-editor-demo.gif";
 import weatherDash from "../../assets/images/weather-dash.png";
 import noteTaker from "../../assets/images/Mayfield-Note-Taker-Demo.gif";
-import dayPlanner from "../../assets/images/day-planner.gif";
+import eCommerce from "../../assets/images/ecommerce-backend-insomnia.png";
+import foodForThought from "../../assets/images/food-for-thought-crop.png";
+import employeeTracker from "../../assets/images/Mayfield-Employee-Tracker-Demo.gif";
+import ReadmeGenerator from "../../assets/images/Readme-Generator-Demo.gif";
+import teamProfiler from "../../assets/images/Mayfield-Team-Profiler-Demo-Short.gif";
+import codeQuiz from "../../assets/images/code-quiz.gif";
+import portfolio2022 from "../../assets/images/portfolio-2022-screen-shot.png";
 
 function Portfolio() {
   // projects & links
@@ -58,6 +64,70 @@ function Portfolio() {
       deploy: "https://mayfieldmel.github.io/Mayfield-Day-Plannner/",
       github: "https://github.com/Mayfieldmel/Mayfield-Day-Plannner",
       description: "A work-day scheduling app that allows users to create, monitor, and edits tasks for each hour of the 9-5 workday."
+    },
+    {
+      src: eCommerce,
+      title: "Mayfield E-Commerce Backend",
+      tools: " MySQL, Node.js, Express.js, Insomnia",
+      deploy: "https://watch.screencastify.com/v/OmwUlVLAFiuLAnclghWA",
+      github: "https://github.com/Mayfieldmel/Mayfield-Ecommerce-Backend",
+      description: "Provides the backend to an e-commerce website. The app configures a working api to use Sequelize to interact with a MySQL database."
+    },
+    {
+      src: foodForThought,
+      title: "Food for Thought",
+      tools: "HTML, CSS, JavaScript, Materialize",
+      deploy: "https://mayfieldmel.github.io/food-for-thought/",
+      github: "https://github.com/Mayfieldmel/food-for-thought",
+      description: "Food for Thought is a self help site aiming to support your goals towards positive thinking by combining encouraging quotes with pictures of delicious food."
+    },
+    {
+      src: employeeTracker,
+      title: "Mayfield Employee Tracker",
+      tools: "MySQL, Node.js, Inquirer",
+      deploy: "https://watch.screencastify.com/v/rdu817FqviZwCfsOHAzr",
+      github: "https://github.com/Mayfieldmel/Mayfield-Employee-Tracker",
+      description: "The Mayfield Employee Tracker is a command-line app that creates and manages an employee database."
+    },
+    {
+      src: ReadmeGenerator,
+      title: "Mayfield Readme Generator",
+      tools: "Node.js, Markdown",
+      deploy: "https://watch.screencastify.com/v/NQ24s5FTq6geX0uo0IdW",
+      github: "https://github.com/Mayfieldmel/Mayfield-Readme-Generator",
+      description: "A command-line app that generates a standard readme template interpolated with user input data. Used Inquire npm package to create prompts for user input."
+    },
+    {
+      src: teamProfiler,
+      title: "Mayfield Team Profiler",
+      tools: "Node.js, HTML, Bootstrap",
+      deploy: "https://watch.screencastify.com/v/Iafga4f29HOOSi9lb2hS",
+      github: "https://github.com/Mayfieldmel/Mayfield-Team-Profiler",
+      description: "Uses inquirer to prompts users to answer questions about their team members and then, generates team profile cards based on user input."
+    },
+    {
+      src: codeQuiz,
+      title: "Mayfield Code Quiz",
+      tools: "HTML, CSS, JavaScript",
+      deploy: "https://mayfieldmel.github.io/Mayfield-Code-Quiz/",
+      github: "https://github.com/Mayfieldmel/Mayfield-Code-Quiz",
+      description: "Presents users with multiple choice questions and 76 seconds to complete the quiz. 10 seconds is subtracted for wrong answers and time remaining at end of quiz constitutes the user's score."
+    },
+    {
+      src: portfolio2022,
+      title: "Mayfield Portfolio 2022",
+      tools: "HTML, CSS",
+      deploy: "https://mayfieldmel.github.io/Mayfield-Portfolio-2022/",
+      github: "https://github.com/Mayfieldmel/Mayfield-Portfolio-2022",
+      description: "A portfolio presenting the projects I have developed at the University of North Carolina's Coding Bootcamp."
+    },
+    {
+      src: passwordGenerator,
+      title: "Mayfield Password Generator",
+      tools: "HTML, CSS, JavaScript",
+      deploy: "https://mayfieldmel.github.io/Mayfield-Password-Generator/",
+      github: "https://github.com/Mayfieldmel/Mayfield-Password-Generator",
+      description: "The Mayfield Password Generator allows users to generate a random password containing their choice of uppercase letters, lowercase letters, numbers and/or special characters."
     },
   ];
   const [projectCard, setProjectCard] = useState(projects[0]);
