@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Mayfield-Portfolio-2.0/static/css/main.3703898c.chunk.css",
-    "main.js": "/Mayfield-Portfolio-2.0/static/js/main.e17a8860.chunk.js",
-    "main.js.map": "/Mayfield-Portfolio-2.0/static/js/main.e17a8860.chunk.js.map",
+    "main.js": "/Mayfield-Portfolio-2.0/static/js/main.3ac7b0c3.chunk.js",
+    "main.js.map": "/Mayfield-Portfolio-2.0/static/js/main.3ac7b0c3.chunk.js.map",
     "runtime-main.js": "/Mayfield-Portfolio-2.0/static/js/runtime-main.cd543380.js",
     "runtime-main.js.map": "/Mayfield-Portfolio-2.0/static/js/runtime-main.cd543380.js.map",
     "static/js/2.117d28ed.chunk.js": "/Mayfield-Portfolio-2.0/static/js/2.117d28ed.chunk.js",
@@ -13,10 +13,11 @@
     "static/css/main.3703898c.chunk.css.map": "/Mayfield-Portfolio-2.0/static/css/main.3703898c.chunk.css.map",
     "static/js/2.117d28ed.chunk.js.LICENSE.txt": "/Mayfield-Portfolio-2.0/static/js/2.117d28ed.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Mayfield-Portfolio-2.0/static/media/dark-blue-pattern.71b429e2.jpg",
-    "static/media/Mayfield IT Resume 2022.b8e8e68d.docx": "/Mayfield-Portfolio-2.0/static/media/Mayfield IT Resume 2022.b8e8e68d.docx",
+    "static/media/Mayfield IT Resume 2022.234a09a0.docx": "/Mayfield-Portfolio-2.0/static/media/Mayfield IT Resume 2022.234a09a0.docx",
     "static/media/Mayfield-Note-Taker-Demo.cd9d18d9.gif": "/Mayfield-Portfolio-2.0/static/media/Mayfield-Note-Taker-Demo.cd9d18d9.gif",
     "static/media/MeJadeWedding-cropped.jpg": "/Mayfield-Portfolio-2.0/static/media/MeJadeWedding-cropped.926ab871.jpg",
     "static/media/day-planner.5b3f62cd.gif": "/Mayfield-Portfolio-2.0/static/media/day-planner.5b3f62cd.gif",
+    "static/media/mayfield-react-portfolio-screenshot.22e93260.png": "/Mayfield-Portfolio-2.0/static/media/mayfield-react-portfolio-screenshot.22e93260.png",
     "static/media/mayfield-tech-blog-screenshot.86d56211.png": "/Mayfield-Portfolio-2.0/static/media/mayfield-tech-blog-screenshot.86d56211.png",
     "static/media/pawfect-homepage.8f7873d5.png": "/Mayfield-Portfolio-2.0/static/media/pawfect-homepage.8f7873d5.png",
     "static/media/text-editor-demo.b42d095e.gif": "/Mayfield-Portfolio-2.0/static/media/text-editor-demo.b42d095e.gif",
@@ -26,6 +27,6 @@
     "static/js/runtime-main.cd543380.js",
     "static/js/2.117d28ed.chunk.js",
     "static/css/main.3703898c.chunk.css",
-    "static/js/main.e17a8860.chunk.js"
+    "static/js/main.3ac7b0c3.chunk.js"
   ]
 }
