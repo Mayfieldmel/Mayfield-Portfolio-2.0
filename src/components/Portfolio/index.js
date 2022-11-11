@@ -11,10 +11,20 @@ import ReadmeGenerator from "../../assets/images/Readme-Generator-Demo.gif";
 import teamProfiler from "../../assets/images/Mayfield-Team-Profiler-Demo-Short.gif";
 import codeQuiz from "../../assets/images/code-quiz.gif";
 import portfolio2022 from "../../assets/images/portfolio-2022-screen-shot.png";
+import playerUp from "../../assets/images/player-readme.png";
 
 function Portfolio() {
   // projects & links
   const projects = [
+    {
+      src: playerUp,
+      title: "Player Up",
+      tools:
+        "MERN Stack, GraphQL",
+      deploy: "https://playerup2022.herokuapp.com/",
+      github: "https://github.com/Mayfieldmel/player-up",
+      description: "Player UP is a social application designed to organize people with a similar interest - in this case games of all kinds! A user can signup and when logged in they can browse local activities that are available to sign up to participate in and add events for others to join."
+    },
     {
       src: pawfect,
       title: "Pawfect Friends",
