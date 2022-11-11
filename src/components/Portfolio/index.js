@@ -15,6 +15,7 @@ import playerUp from "../../assets/images/player-readme.png";
 import dayPlanner from "../../assets/images/day-planner.gif";
 import reactPortfolio from "../../assets/images/mayfield-react-portfolio-screenshot.png"
 import passwordGenerator from "../../assets/images/password-generator.png"
+
 function Portfolio() {
   // projects & links
   const projects = [
