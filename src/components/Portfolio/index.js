@@ -12,6 +12,8 @@ import teamProfiler from "../../assets/images/Mayfield-Team-Profiler-Demo-Short.
 import codeQuiz from "../../assets/images/code-quiz.gif";
 import portfolio2022 from "../../assets/images/portfolio-2022-screen-shot.png";
 import playerUp from "../../assets/images/player-readme.png";
+import dayPlanner from "../../assets/images/day-planner.gif";
+import reactPortfolio from "../../assets/images/mayfield-react-portfolio-screenshot.png"
 
 function Portfolio() {
   // projects & links
@@ -35,6 +37,15 @@ function Portfolio() {
       description: "A secure pet social media site that allows users to create a pet profile, post text and images, and make comments on all content."
     },
     {
+      src: reactPortfolio,
+      title: "Mayfield React Portfolio",
+      tools:
+        "HTML, CSS, JavaScript/JSX, React.js",
+      deploy: "https://mayfieldmel.github.io/Mayfield-React-Portfolio/",
+      github: "https://github.com/Mayfieldmel/Mayfield-React-Portfolio",
+      description: "My portfolio offers a brief overview of who I am and what I can do. Explore the many projects I have developed at the UNC Chapel Hill Coding Bootcamp and reach out to get to know me better."
+    },
+    {
       src: techBlog,
       title: "Mayfield Tech Blog",
       tools:
@@ -45,7 +56,7 @@ function Portfolio() {
     },
     {
       src: textEditor,
-      title: "Mayfield Text Editor",
+      title: "Mayfield Text Editor(PWA)",
       tools: "Node.js, Express.js, Webpack, IndexedDB",
       deploy: "https://mayfield-text-editor.herokuapp.com/",
       github: "https://github.com/Mayfieldmel/Mayfield-Text-Editor-PWA",
