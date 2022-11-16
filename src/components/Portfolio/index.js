@@ -13,7 +13,7 @@ import codeQuiz from "../../assets/images/code-quiz.gif";
 import portfolio2022 from "../../assets/images/portfolio-2022-screen-shot.png";
 import playerUp from "../../assets/images/player-readme.png";
 import dayPlanner from "../../assets/images/day-planner.gif";
-import reactPortfolio from "../../assets/images/mayfield-react-portfolio-screenshot.png"
+import reactPortfolio from "../../assets/images/mayfield-react-portfolio-screenshot.png";
 
 function Portfolio() {
   // projects & links
@@ -25,7 +25,7 @@ function Portfolio() {
         "MERN Stack, GraphQL",
       deploy: "https://playerup2022.herokuapp.com/",
       github: "https://github.com/Mayfieldmel/player-up",
-      description: "Player UP is a social application designed to organize people with a similar interest - in this case games of all kinds! A user can signup and when logged in they can browse local activities that are available to sign up to participate in and add events for others to join."
+      description: "A secure social application that allows users to connect with other gamers and organize group games. Create a profile, post and host events, or rsvp to games happening in your local area. *Group Project; Role: Team Manager"
     },
     {
       src: pawfect,
@@ -34,7 +34,7 @@ function Portfolio() {
         "HTML/Handlebars, CSS/Bulma, JavaScript, Node.js, Express.js, MySQL, Sequelize",
       deploy: "https://pawfect-friends-app.herokuapp.com/",
       github: "https://github.com/Mayfieldmel/Pawfect-Friends",
-      description: "A secure pet social media site that allows users to create a pet profile, post text and images, and make comments on all content."
+      description: "A secure pet social media site that allows users to create a pet profile, post text and images, and make comments on all content. *Group Project; Role: Team Manager"
     },
     {
       src: reactPortfolio,
@@ -100,7 +100,7 @@ function Portfolio() {
       tools: "HTML, CSS, JavaScript, Materialize",
       deploy: "https://mayfieldmel.github.io/food-for-thought/",
       github: "https://github.com/Mayfieldmel/food-for-thought",
-      description: "Food for Thought is a self help site aiming to support your goals towards positive thinking by combining encouraging quotes with pictures of delicious food."
+      description: "Food for Thought is a self help site aiming to support your goals towards positive thinking by combining encouraging quotes with pictures of delicious food. *Group Project; Role: Team Manager"
     },
     {
       src: employeeTracker,
