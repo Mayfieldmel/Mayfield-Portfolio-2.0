@@ -13,7 +13,8 @@ import codeQuiz from "../../assets/images/code-quiz.gif";
 import portfolio2022 from "../../assets/images/portfolio-2022-screen-shot.png";
 import playerUp from "../../assets/images/player-readme.png";
 import dayPlanner from "../../assets/images/day-planner.gif";
-import reactPortfolio from "../../assets/images/mayfield-react-portfolio-screenshot.png";
+import reactPortfolio from "../../assets/images/mayfield-react-portfolio-screenshot.png"
+import passwordGenerator from "../../assets/images/password-generator.png"
 
 function Portfolio() {
   // projects & links
