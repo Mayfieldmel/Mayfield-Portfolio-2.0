@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Mayfield-Portfolio-2.0/static/css/main.fca25664.chunk.css",
-    "main.js": "/Mayfield-Portfolio-2.0/static/js/main.c740a730.chunk.js",
-    "main.js.map": "/Mayfield-Portfolio-2.0/static/js/main.c740a730.chunk.js.map",
+    "main.js": "/Mayfield-Portfolio-2.0/static/js/main.3b87ee5d.chunk.js",
+    "main.js.map": "/Mayfield-Portfolio-2.0/static/js/main.3b87ee5d.chunk.js.map",
     "runtime-main.js": "/Mayfield-Portfolio-2.0/static/js/runtime-main.cd543380.js",
     "runtime-main.js.map": "/Mayfield-Portfolio-2.0/static/js/runtime-main.cd543380.js.map",
     "static/js/2.117d28ed.chunk.js": "/Mayfield-Portfolio-2.0/static/js/2.117d28ed.chunk.js",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.cd543380.js",
     "static/js/2.117d28ed.chunk.js",
     "static/css/main.fca25664.chunk.css",
-    "static/js/main.c740a730.chunk.js"
+    "static/js/main.3b87ee5d.chunk.js"
   ]
 }
