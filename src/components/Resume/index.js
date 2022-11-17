@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/Mayfield_IT_Resume_2022";
+import resume from "../../assets/Mayfield_IT_Resume_2022.docx";
 
 function Resume() {
   return (
@@ -13,16 +13,20 @@ function Resume() {
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
+        <li>Java</li>
         <li>JQuery</li>
+        <li>C#</li>
         <li>Responsive design</li>
         <li>React</li>
         <li>BootStrap, Materialize, Bulma</li>
+        <li>Handlebars</li>
       </ul>
       <h3>Back-End Proficiencies</h3>
       <ul>
         <li>APIs</li>
         <li>Node</li>
         <li>Express</li>
+        <li>Python</li>
         <li>MySQL, Sequelize</li>
         <li>MongoDB, Mongoose</li>
         <li>REST</li>
