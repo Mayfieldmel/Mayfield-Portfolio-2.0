@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/Mayfield_IT_Resume_2022.docx";
+import resume from "../../assets/Mayfield_IT_Resume_2023.docx";
 
 function Resume() {
   return (
