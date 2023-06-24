@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import javaBlog from "../../assets/images/java-social-media-api.png";
 import pawfect from "../../assets/images/pawfect-homepage.png";
 import techBlog from "../../assets/images/mayfield-tech-blog-screenshot.png";
 import textEditor from "../../assets/images/text-editor-demo.gif";
@@ -20,13 +21,11 @@ function Portfolio() {
   // projects & links
   const projects = [
     {
-      src: playerUp,
-      title: "Player Up",
-      tools:
-        "MERN Stack, GraphQL",
-      deploy: "https://playerup2022.herokuapp.com/",
-      github: "https://github.com/Mayfieldmel/player-up",
-      description: "A secure social application that allows users to connect with other gamers and organize group games. Create a profile, post and host events, or rsvp to games happening in your local area. *Group Project; Role: Team Manager"
+      src: javaBlog,
+      title: "Java Social Media API",
+      tools: "Java, Maven, Javelin, MySQL, JUnit, Mockito",
+      github: "https://github.com/Mayfieldmel/JAVA-Social-media-blog-API",
+      description: "A backend for a social media blog that allows users to create & login to accounts, create and view messages, as well as update and delete messages."
     },
     {
       src: pawfect,
@@ -54,6 +53,15 @@ function Portfolio() {
       deploy: "https://mayfield-tech-blog.herokuapp.com/home",
       github: "https://github.com/Mayfieldmel/Mayfield-Tech-Blog",
       description: "Provides a secure platform for users to blog about the latests trends in technology. Users can sign-up, login, post blog entries, comment on blog entries, and maintain their own personal dashboard."
+    },
+    {
+      src: playerUp,
+      title: "Player Up",
+      tools:
+        "MERN Stack, GraphQL",
+      deploy: "https://playerup2022.herokuapp.com/",
+      github: "https://github.com/Mayfieldmel/player-up",
+      description: "A secure social application that allows users to connect with other gamers and organize group games. Create a profile, post and host events, or rsvp to games happening in your local area. *Group Project; Role: Team Manager"
     },
     {
       src: textEditor,
