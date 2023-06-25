@@ -24,6 +24,7 @@ function Portfolio() {
       src: javaBlog,
       title: "Java Social Media API",
       tools: "Java, Maven, Javelin, MySQL, JUnit, Mockito",
+      deploy: "https://github.com/Mayfieldmel/JAVA-Social-media-blog-API",
       github: "https://github.com/Mayfieldmel/JAVA-Social-media-blog-API",
       description: "A backend for a social media blog that allows users to create & login to accounts, create and view messages, as well as update and delete messages."
     },
