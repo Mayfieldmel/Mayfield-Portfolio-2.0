@@ -13,9 +13,7 @@ function Resume() {
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
-        <li>Java</li>
         <li>JQuery</li>
-        <li>C#</li>
         <li>Responsive design</li>
         <li>React</li>
         <li>BootStrap, Materialize, Bulma</li>
@@ -23,10 +21,10 @@ function Resume() {
       </ul>
       <h3>Back-End Proficiencies</h3>
       <ul>
-        <li>APIs</li>
+        <li>Java</li>
         <li>Node</li>
         <li>Express</li>
-        <li>Python</li>
+        <li>APIs</li>
         <li>MySQL, Sequelize</li>
         <li>MongoDB, Mongoose</li>
         <li>REST</li>
