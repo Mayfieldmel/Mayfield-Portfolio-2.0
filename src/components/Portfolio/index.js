@@ -74,36 +74,12 @@ function Portfolio() {
       description: "A secure social application that allows users to connect with other gamers and organize group games. Create a profile, post and host events, or rsvp to games happening in your local area. *Group Project; Role: Team Manager"
     },
     {
-      src: textEditor,
-      title: "Mayfield Text Editor(PWA)",
-      tools: "Node.js, Express.js, Webpack, IndexedDB",
-      deploy: "https://mayfield-text-editor.herokuapp.com/",
-      github: "https://github.com/Mayfieldmel/Mayfield-Text-Editor-PWA",
-      description: "A single-page Progressive Web App that allows users to create notes or code snippets with or without an internet connection."
-    },
-    {
       src: weatherDash,
       title: "Weather Dash",
       tools: "HTML, CSS, JavaScript",
       deploy: "https://mayfieldmel.github.io/Weather-Dash/",
       github: "https://github.com/Mayfieldmel/Weather-Dash",
       description: "A weather app that allows users to check weather forecasts by city. Users can enter city names and weather data is fetched from openweathermap api."
-    },
-    {
-      src: noteTaker,
-      title: "Mayfield Note Taker",
-      tools: "Express.js, Node.js",
-      deploy: "https://mayfield-note-taker.herokuapp.com/",
-      github: "https://github.com/Mayfieldmel/Mayfield-Note-Taker",
-      decription: "A dynamic platform for users to take and store notes. Notes are saved to a remote server hosted by Heroku. Front-end code provided to me. I worked on the backend."
-    },
-    {
-      src: dayPlanner,
-      title: "Mayfield Day Planner",
-      tools: "HTML, CSS, JQuery",
-      deploy: "https://mayfieldmel.github.io/Mayfield-Day-Plannner/",
-      github: "https://github.com/Mayfieldmel/Mayfield-Day-Plannner",
-      description: "A work-day scheduling app that allows users to create, monitor, and edits tasks for each hour of the 9-5 workday."
     },
     {
       src: eCommerce,
@@ -113,62 +89,86 @@ function Portfolio() {
       github: "https://github.com/Mayfieldmel/Mayfield-Ecommerce-Backend",
       description: "Provides the backend to an e-commerce website. The app configures a working api to use Sequelize to interact with a MySQL database."
     },
-    {
-      src: foodForThought,
-      title: "Food for Thought",
-      tools: "HTML, CSS, JavaScript, Materialize",
-      deploy: "https://mayfieldmel.github.io/food-for-thought/",
-      github: "https://github.com/Mayfieldmel/food-for-thought",
-      description: "Food for Thought is a self help site aiming to support your goals towards positive thinking by combining encouraging quotes with pictures of delicious food. *Group Project; Role: Team Manager"
-    },
-    {
-      src: employeeTracker,
-      title: "Mayfield Employee Tracker",
-      tools: "MySQL, Node.js, Inquirer",
-      deploy: "https://watch.screencastify.com/v/rdu817FqviZwCfsOHAzr",
-      github: "https://github.com/Mayfieldmel/Mayfield-Employee-Tracker",
-      description: "The Mayfield Employee Tracker is a command-line app that creates and manages an employee database."
-    },
-    {
-      src: ReadmeGenerator,
-      title: "Mayfield Readme Generator",
-      tools: "Node.js, Markdown",
-      deploy: "https://watch.screencastify.com/v/NQ24s5FTq6geX0uo0IdW",
-      github: "https://github.com/Mayfieldmel/Mayfield-Readme-Generator",
-      description: "A command-line app that generates a standard readme template interpolated with user input data. Used Inquire npm package to create prompts for user input."
-    },
-    {
-      src: teamProfiler,
-      title: "Mayfield Team Profiler",
-      tools: "Node.js, HTML, Bootstrap",
-      deploy: "https://watch.screencastify.com/v/Iafga4f29HOOSi9lb2hS",
-      github: "https://github.com/Mayfieldmel/Mayfield-Team-Profiler",
-      description: "Uses inquirer to prompts users to answer questions about their team members and then, generates team profile cards based on user input."
-    },
-    {
-      src: codeQuiz,
-      title: "Mayfield Code Quiz",
-      tools: "HTML, CSS, JavaScript",
-      deploy: "https://mayfieldmel.github.io/Mayfield-Code-Quiz/",
-      github: "https://github.com/Mayfieldmel/Mayfield-Code-Quiz",
-      description: "Presents users with multiple choice questions and 76 seconds to complete the quiz. 10 seconds is subtracted for wrong answers and time remaining at end of quiz constitutes the user's score."
-    },
-    {
-      src: portfolio2022,
-      title: "Mayfield Portfolio 2022",
-      tools: "HTML, CSS",
-      deploy: "https://mayfieldmel.github.io/Mayfield-Portfolio-2022/",
-      github: "https://github.com/Mayfieldmel/Mayfield-Portfolio-2022",
-      description: "A portfolio presenting the projects I have developed at the University of North Carolina's Coding Bootcamp."
-    },
-    {
-      src: passwordGenerator,
-      title: "Mayfield Password Generator",
-      tools: "HTML, CSS, JavaScript",
-      deploy: "https://mayfieldmel.github.io/Mayfield-Password-Generator/",
-      github: "https://github.com/Mayfieldmel/Mayfield-Password-Generator",
-      description: "The Mayfield Password Generator allows users to generate a random password containing their choice of uppercase letters, lowercase letters, numbers and/or special characters."
-    },
+    // {
+    //   src: textEditor,
+    //   title: "Mayfield Text Editor(PWA)",
+    //   tools: "Node.js, Express.js, Webpack, IndexedDB",
+    //   deploy: "https://mayfield-text-editor.herokuapp.com/",
+    //   github: "https://github.com/Mayfieldmel/Mayfield-Text-Editor-PWA",
+    //   description: "A single-page Progressive Web App that allows users to create notes or code snippets with or without an internet connection."
+    // },
+    // {
+    //   src: noteTaker,
+    //   title: "Mayfield Note Taker",
+    //   tools: "Express.js, Node.js",
+    //   deploy: "https://mayfield-note-taker.herokuapp.com/",
+    //   github: "https://github.com/Mayfieldmel/Mayfield-Note-Taker",
+    //   decription: "A dynamic platform for users to take and store notes. Notes are saved to a remote server hosted by Heroku. Front-end code provided to me. I worked on the backend."
+    // },
+    // {
+    //   src: dayPlanner,
+    //   title: "Mayfield Day Planner",
+    //   tools: "HTML, CSS, JQuery",
+    //   deploy: "https://mayfieldmel.github.io/Mayfield-Day-Plannner/",
+    //   github: "https://github.com/Mayfieldmel/Mayfield-Day-Plannner",
+    //   description: "A work-day scheduling app that allows users to create, monitor, and edits tasks for each hour of the 9-5 workday."
+    // },
+    // {
+    //   src: foodForThought,
+    //   title: "Food for Thought",
+    //   tools: "HTML, CSS, JavaScript, Materialize",
+    //   deploy: "https://mayfieldmel.github.io/food-for-thought/",
+    //   github: "https://github.com/Mayfieldmel/food-for-thought",
+    //   description: "Food for Thought is a self help site aiming to support your goals towards positive thinking by combining encouraging quotes with pictures of delicious food. *Group Project; Role: Team Manager"
+    // },
+    // {
+    //   src: employeeTracker,
+    //   title: "Mayfield Employee Tracker",
+    //   tools: "MySQL, Node.js, Inquirer",
+    //   deploy: "https://watch.screencastify.com/v/rdu817FqviZwCfsOHAzr",
+    //   github: "https://github.com/Mayfieldmel/Mayfield-Employee-Tracker",
+    //   description: "The Mayfield Employee Tracker is a command-line app that creates and manages an employee database."
+    // },
+    // {
+    //   src: ReadmeGenerator,
+    //   title: "Mayfield Readme Generator",
+    //   tools: "Node.js, Markdown",
+    //   deploy: "https://watch.screencastify.com/v/NQ24s5FTq6geX0uo0IdW",
+    //   github: "https://github.com/Mayfieldmel/Mayfield-Readme-Generator",
+    //   description: "A command-line app that generates a standard readme template interpolated with user input data. Used Inquire npm package to create prompts for user input."
+    // },
+    // {
+    //   src: teamProfiler,
+    //   title: "Mayfield Team Profiler",
+    //   tools: "Node.js, HTML, Bootstrap",
+    //   deploy: "https://watch.screencastify.com/v/Iafga4f29HOOSi9lb2hS",
+    //   github: "https://github.com/Mayfieldmel/Mayfield-Team-Profiler",
+    //   description: "Uses inquirer to prompts users to answer questions about their team members and then, generates team profile cards based on user input."
+    // },
+    // {
+    //   src: codeQuiz,
+    //   title: "Mayfield Code Quiz",
+    //   tools: "HTML, CSS, JavaScript",
+    //   deploy: "https://mayfieldmel.github.io/Mayfield-Code-Quiz/",
+    //   github: "https://github.com/Mayfieldmel/Mayfield-Code-Quiz",
+    //   description: "Presents users with multiple choice questions and 76 seconds to complete the quiz. 10 seconds is subtracted for wrong answers and time remaining at end of quiz constitutes the user's score."
+    // },
+    // {
+    //   src: portfolio2022,
+    //   title: "Mayfield Portfolio 2022",
+    //   tools: "HTML, CSS",
+    //   deploy: "https://mayfieldmel.github.io/Mayfield-Portfolio-2022/",
+    //   github: "https://github.com/Mayfieldmel/Mayfield-Portfolio-2022",
+    //   description: "A portfolio presenting the projects I have developed at the University of North Carolina's Coding Bootcamp."
+    // },
+    // {
+    //   src: passwordGenerator,
+    //   title: "Mayfield Password Generator",
+    //   tools: "HTML, CSS, JavaScript",
+    //   deploy: "https://mayfieldmel.github.io/Mayfield-Password-Generator/",
+    //   github: "https://github.com/Mayfieldmel/Mayfield-Password-Generator",
+    //   description: "The Mayfield Password Generator allows users to generate a random password containing their choice of uppercase letters, lowercase letters, numbers and/or special characters."
+    // },
   ];
   const [projectCard, setProjectCard] = useState(projects[0]);
   const [hover, setHover] = useState(false);
@@ -207,6 +207,38 @@ function Portfolio() {
                     target="_blank"
                     rel="noreferrer"
                   >Deployed Link</a>
+                  <a
+                    href={project.github}
+                    className="card-link text-white"
+                    target="_blank"
+                    rel="noreferrer"
+                  >Github Link</a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="col-sm-12 section-header mx-5">
+        <h3>Java Coding Challenges</h3>
+      </div>
+      <div className="col-sm-12 col-md-10 flex-shrink-1">
+        <div className="card-deck row cards">
+          {projects.map(project => (
+            <div className='card' onMouseEnter={() => {
+              setHover(true);
+              setProjectCard(project);
+            }}
+              onMouseLeave={() => {
+                setHover(false);
+                setProjectCard(project);
+              }}>
+              <div className="card-body">
+                <h5 className="card-title card-title-font">{project.title}</h5>
+                <p className="card-text card-text-box card-font">
+                  {project.description}
+                </p>
+                <div className={`card-body list-group-item ${hover && projectCard.title === project.title && 'card-hover'}`}>
                   <a
                     href={project.github}
                     className="card-link text-white"
