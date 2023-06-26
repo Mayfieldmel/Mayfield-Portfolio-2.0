@@ -93,34 +93,34 @@ function Portfolio() {
       description: "Palindromes are words that are the same forwards as they are backwards - eg, 'bob', 'racecar'. Return true if str is a palindrome, false otherwise."
     },
     {
-      title: "Pawfect Friends",
-      github: "https://github.com/Mayfieldmel/Pawfect-Friends",
-      description: "A secure pet social media site that allows users to create a pet profile, post text and images, and make comments on all content. *Group Project; Role: Team Manager"
+      title: "Isogram",
+      github: "https://github.com/Mayfieldmel/Mayfieldmel-Isogram",
+      description: "An Isogram is a word where no letters are repeated. You may assume that there will only be lowercase letters in the String. Return true if the string is an isogram, false otherwise."
     },
     {
-      title: "Mayfield React Portfolio",
-      github: "https://github.com/Mayfieldmel/Mayfield-React-Portfolio",
-      description: "My portfolio offers a brief overview of who I am and what I can do. Explore the many projects I have developed at the UNC Chapel Hill Coding Bootcamp and reach out to get to know me better."
+      title: "Word Count Map",
+      github: "https://github.com/Mayfieldmel/Mayfieldmel-WordCountMap",
+      description: "Receive a string of multiple words. Return a Map object where the key is a word and the value is the count of occurrences of the word."
     },
     {
-      title: "Mayfield Tech Blog",
-      github: "https://github.com/Mayfieldmel/Mayfield-Tech-Blog",
-      description: "Provides a secure platform for users to blog about the latests trends in technology. Users can sign-up, login, post blog entries, comment on blog entries, and maintain their own personal dashboard."
+      title: "Is There Sum",
+      github: "https://github.com/Mayfieldmel/Mayfieldmel-IsThereSum",
+      description: "Check if there exist two numbers in an array add up to some other number. Return true if two separate values in the array add up to a target, false otherwise."
     },
     {
-      title: "Player Up",
-      github: "https://github.com/Mayfieldmel/player-up",
-      description: "A secure social application that allows users to connect with other gamers and organize group games. Create a profile, post and host events, or rsvp to games happening in your local area. *Group Project; Role: Team Manager"
+      title: "Search 2D Array",
+      github: "https://github.com/Mayfieldmel/Mayfieldmel-Search2dArray",
+      description: "Receive a 2d array of ints. (That's an array of arrays!) Search the array for a matching value, return true if found false otherwise."
     },
     {
-      title: "Weather Dash",
-      github: "https://github.com/Mayfieldmel/Weather-Dash",
-      description: "A weather app that allows users to check weather forecasts by city. Users can enter city names and weather data is fetched from openweathermap api."
+      title: "Pyramid",
+      github: "https://github.com/Mayfieldmel/Mayfieldmel-Pyramid",
+      description: "Return a string that is a pyramid of size n, made up of asterisks and no spaces."
     },
     {
-      title: "Mayfield E-Commerce Backend",
-      github: "https://github.com/Mayfieldmel/Mayfield-Ecommerce-Backend",
-      description: "Provides the backend to an e-commerce website. The app configures a working api to use Sequelize to interact with a MySQL database."
+      title: "Reverse A String",
+      github: "https://github.com/Mayfieldmel/Mayfieldmel-ReverseAString",
+      description: "Return the reverse of a string."
     },
   ];
   const [projectCard, setProjectCard] = useState(projects[0]);
@@ -173,6 +173,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="col-sm-12 section-header mx-5">
+        <p></p>
         <h3>Java Coding Challenges</h3>
       </div>
       <div className="col-sm-12 col-md-10 flex-shrink-1">
