@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import javaBlog from "../../assets/images/java-social-media-api.png";
+import libraryAPI from "../../assets/images/java-library-api.png";
 import pawfect from "../../assets/images/pawfect-homepage.png";
 import techBlog from "../../assets/images/mayfield-tech-blog-screenshot.png";
 import textEditor from "../../assets/images/text-editor-demo.gif";
@@ -27,6 +28,14 @@ function Portfolio() {
       deploy: "https://github.com/Mayfieldmel/JAVA-Social-media-blog-API",
       github: "https://github.com/Mayfieldmel/JAVA-Social-media-blog-API",
       description: "A backend for a social media blog that allows users to create & login to accounts, create and view messages, as well as update and delete messages."
+    },
+    {
+      src: libraryAPI,
+      title: "Java Library API",
+      tools: "Java, Maven, Javelin, h2database, JUnit, Mockito, Jackson databind",
+      deploy: "https://github.com/Mayfieldmel/Mayfieldmel-Library",
+      github: "https://github.com/Mayfieldmel/Mayfieldmel-Library",
+      description: "A library api that allows users to track and manage library books. Can add books to the library, check books out, query available books"
     },
     {
       src: pawfect,
