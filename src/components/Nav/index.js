@@ -11,7 +11,7 @@ function Nav(props) {
   return (
     <header>
       <h1>
-        <a href="/" onClick={()=> setCurrentPage("About Me")}>Melissa Mayfield</a>
+        <a href="https://mayfieldmel.github.io/Mayfield-Portfolio-2.0" onClick={()=> setCurrentPage("About Me")}>Melissa Mayfield</a>
       </h1>
       <nav>
         <ul>
