@@ -1,4 +1,5 @@
 import React from "react";
+import portrait from "../../assets/images/MeJadeWedding-cropped.jpg";
 
 function About() {
   // jsx
@@ -6,7 +7,7 @@ function About() {
     <section className="about-section">
       <img
         className="portrait"
-        src={require("../../assets/images/MeJadeWedding-cropped.jpg").default}
+        src={portrait}
         alt="Melissa Mayfield and her winning smile"
       />
       <div className="flex-column">
