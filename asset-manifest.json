@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mayfield-Portfolio-2.0/static/css/main.08c1554d.css",
-    "main.js": "/Mayfield-Portfolio-2.0/static/js/main.f6516f9c.js",
+    "main.js": "/Mayfield-Portfolio-2.0/static/js/main.63e205ed.js",
     "static/js/787.c87aa27e.chunk.js": "/Mayfield-Portfolio-2.0/static/js/787.c87aa27e.chunk.js",
     "static/media/dark-blue-pattern.jpg": "/Mayfield-Portfolio-2.0/static/media/dark-blue-pattern.71b429e23e2e5092237a.jpg",
     "static/media/player-readme.png": "/Mayfield-Portfolio-2.0/static/media/player-readme.33902edbe35bb214f553.png",
@@ -18,11 +18,11 @@
     "static/media/Mayfield_IT_Resume_2023.docx": "/Mayfield-Portfolio-2.0/static/media/Mayfield_IT_Resume_2023.a90b3d9894876223e2d1.docx",
     "index.html": "/Mayfield-Portfolio-2.0/index.html",
     "main.08c1554d.css.map": "/Mayfield-Portfolio-2.0/static/css/main.08c1554d.css.map",
-    "main.f6516f9c.js.map": "/Mayfield-Portfolio-2.0/static/js/main.f6516f9c.js.map",
+    "main.63e205ed.js.map": "/Mayfield-Portfolio-2.0/static/js/main.63e205ed.js.map",
     "787.c87aa27e.chunk.js.map": "/Mayfield-Portfolio-2.0/static/js/787.c87aa27e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08c1554d.css",
-    "static/js/main.f6516f9c.js"
+    "static/js/main.63e205ed.js"
   ]
 }
